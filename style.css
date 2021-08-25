@@ -21,11 +21,11 @@ body {
 }
 #login input{
     position:absolute;
-    left:400px;
+    left:422px;
     border: 2px solid white;
     border-radius: 5px;
     padding:0;
-    width: 285px;
+    width: 298px;
     height:44px;
     top:240px;
     margin-top:25.6px;
@@ -57,8 +57,25 @@ body {
     font-family:'Viga';
     text-align: center;
     top: 290px;
-    left: 438px;
+    left: 400px;
     width: 400px;
+}
+
+#todo-form button {
+  position:fixed;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family:'Viga';
+  height:48px;
+  width:44px;
+  font-size:20px;
+  top: 290px;
+  left:812px;
+  margin-top:25.6px;
+  margin-bottom:25.6px;
+  padding:0;
+  background-color: white;
+
 }
 
 #todo-list {
@@ -120,7 +137,7 @@ body {
       margin: 1em auto;
       padding: 0.2em 0.6em;
       position: absolute;
-      left:700px;
+      left:730px;
       top:242px;
       text-transform: uppercase;
     }
