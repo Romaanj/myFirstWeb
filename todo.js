@@ -48,4 +48,3 @@ if ( savedToDos !== null ) {
     lists = arrayToDo;
     arrayToDo.forEach(showToDoList);
 }
-

@@ -19,16 +19,18 @@ body {
     text-align: center;
     
 }
+#login {
+  display:flex;
+  justify-content: center;
+  align-content:20px;
+}
 #login input{
-    position:absolute;
-    left:422px;
     border: 2px solid white;
     border-radius: 5px;
     padding:0;
     width: 298px;
     height:44px;
-    top:240px;
-    margin-top:25.6px;
+    margin-top:10px;
     margin-bottom:25.6px;
     font-size:20px;
     font-family:'Viga';
@@ -43,50 +45,43 @@ body {
     text-align:center;
     font-size: 40px;
     bottom:20px;
-
+}
+#todo-form {
+  display : flex;
+  justify-content : center;
 }
 #todo-form input {
-    position:fixed;
+    position:relative;  
     border: 2px solid white;
     border-radius: 5px;
-    padding:0;
     height:44px;
-    margin-top:25.6px;
-    margin-bottom:25.6px;
     font-size:20px;
     font-family:'Viga';
     text-align: center;
-    top: 290px;
-    left: 400px;
     width: 400px;
+    margin-right : 5px;
 }
 
 #todo-form button {
-  position:fixed;
+  position:relative;
   border: 1px solid white;
   border-radius: 5px;
   font-family:'Viga';
   height:48px;
   width:44px;
   font-size:20px;
-  top: 290px;
-  left:812px;
-  margin-top:25.6px;
-  margin-bottom:25.6px;
-  padding:0;
   background-color: white;
 
 }
 
 #todo-list {
-    position:fixed;
-    margin:0;
+    position:relative;
+    margin-left:400px;
+    margin-top: 5px;
     color:white;
     font-size: 23px;
     font-family: 'Viga';
-    left:470px;
-    top:380px;
-    padding:0;
+    justify-content: center;
 
 }
 
@@ -132,21 +127,19 @@ body {
       border-radius: 5px;
       color: #fff;
       display: block;
-      font-size: 1.6em;
+      font-size: 20px;
       font-weight: bold;
-      margin: 1em auto;
-      padding: 0.2em 0.6em;
-      position: absolute;
-      left:730px;
-      top:242px;
       text-transform: uppercase;
+      margin:5px;
+      margin-top:10px;
+      margin-bottom:25.6px;
+      height:48px;
     }
     
     .btn-5::before,
     .btn-5::after {
       background: #fff;
       content: '';
-      position: absolute;
       z-index: -1;
     }
     
